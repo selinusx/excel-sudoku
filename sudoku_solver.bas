@@ -90,7 +90,7 @@ SAFE_EXIT:
     If Err.Number <> 0 Then
         MsgBox "Error: " & Err.Description, vbExclamation
     ElseIf ok Then
-        MsgBox "Solved ✅", vbInformation
+        MsgBox "Solved", vbInformation
     Else
         MsgBox "No solution found (check puzzle).", vbExclamation
     End If
